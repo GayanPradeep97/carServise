@@ -1,0 +1,18 @@
+<div class="max-w-2xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+  <div class="bg-gray-800 p-6 text-center text-white">
+    <h2 class="text-2xl font-bold">Car List</h2>
+  </div>
+  <ul class="p-6 space-y-4">
+    <li *ngFor="let car of carlist"
+        [ngClass]="{
+          'bg-green-100 border-green-500': car.serviceTime === 'now',
+          'bg-red-100 border-red-500': car.serviceTime === 'after'
+        }"
+        class="p-4 rounded-lg shadow border-2">
+      <div class="flex justify-between items-center">
+        <span class="font-semibold">{{ car.model }}</span>
+        <span>{{ car.licensePlate }}</span>
+      </div>
+    </li>
+  </ul>
+</div>
