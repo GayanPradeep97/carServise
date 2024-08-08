@@ -1,0 +1,14 @@
+{
+    "CAR_LIST": {
+      "TITLE": "Lista de Coches",
+      "MODEL": "Modelo",
+      "LICENSE_PLATE": "Matrícula"
+    },
+    "CAR_ADD": {
+      "TITLE": "Agregar Nuevo Coche",
+      "MODEL_LABEL": "Modelo del Coche",
+      "LICENSE_PLATE_LABEL": "Matrícula",
+      "CONTINUE": "Continuar"
+    }
+  }
+  

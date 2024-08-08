@@ -1,0 +1,14 @@
+{
+    "CAR_LIST": {
+      "TITLE": "Car List",
+      "MODEL": "Model",
+      "LICENSE_PLATE": "License Plate"
+    },
+    "CAR_ADD": {
+      "TITLE": "Add New Car",
+      "MODEL_LABEL": "Car Model",
+      "LICENSE_PLATE_LABEL": "License Plate",
+      "CONTINUE": "Continue"
+    }
+  }
+  

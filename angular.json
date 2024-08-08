@@ -24,7 +24,10 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+                
+              },
+              "src/assets",
+              "src/assets/i18n" 
             ],
             "styles": [
               "src/styles.sass"
@@ -85,7 +88,10 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets",
+              "src/assets/i18n"
+              
             ],
             "styles": [
               "src/styles.sass"
